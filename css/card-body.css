@@ -1,0 +1,35 @@
+.card > article{
+    width: 60%;
+    padding: 3%;
+}
+article > h1{
+    margin: 0 0; 
+    font-family: Arial;   
+}
+.card h3{
+    color: #8f8989d2; 
+    margin: 0;
+    font: menu;
+    font-size: 16px;    
+}
+article hr{
+    float: left;
+    background-color: #3cc54c;
+    width: 10%;
+    height: 6px;
+    border: 0 none;
+    border-radius: 5px;  
+}
+hr+p{
+    clear: left;
+    font: menu;
+    font-size: 15px;
+    font-weight: 500;
+}
+.read-more{
+    color: #3cc54c;
+    text-decoration: underline;
+    float: right;
+    margin-bottom: 0;
+    font-family: Arial;
+}
